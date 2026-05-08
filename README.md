@@ -7,7 +7,16 @@ Based on the original work by [nitaybz](https://github.com/nitaybz) and the [ave
 
 <img src="branding/product.png" width="300">
 
-### Requirements
+### 🚀 Features
+
+- **Power Control**: Turn your receiver on/off from HomeKit.
+- **Volume Control**: Control volume using a Lightbulb or Fan slider for precise adjustment.
+- **Input Selection**: Switch between HDMI, AV, Tuner, and other inputs.
+- **Multi-Zone Support**: Independently control Zone 2, Zone 3, and Zone 4.
+- **Custom Volume Ranges**: Set minimum and maximum volume levels for each zone.
+- **Auto-Discovery**: Automatically find supported receivers on your network.
+
+### 📋 Requirements
 
 <img src="https://img.shields.io/badge/node-%3E%3D20.0.0-brightgreen"> &nbsp;
 <img src="https://img.shields.io/badge/homebridge-%3E%3D1.11.1-brightgreen">
@@ -17,7 +26,75 @@ Based on the original work by [nitaybz](https://github.com/nitaybz) and the [ave
 - [x] Check Node Version with `node -v`
 - [x] Check Homebridge version with `homebridge -V`
 
-## Support homebridge-yamaha-receiver
+### 🛠️ Installation
 
-**homebridge-yamaha-receiver** is a free plugin under the MIT license. it was developed as a contribution to the homebridge/hoobs community with lots of love and thoughts.
-Creating and maintaining Homebridge plugins consume a lot of time and effort and if you would like to share your appreciation, feel free to "Star" or donate.
+#### One-line Installation for Raspberry Pi (SSH)
+If you are running Homebridge as a service (hb-service) on Raspberry Pi or Linux, you can install the plugin directly with this command:
+
+```bash
+sudo hb-service add https://raw.githubusercontent.com/ozturkergin/homebridge-yamaha-avr/master/homebridge-yamaha-avr-ergin-1.0.2.tgz
+```
+
+#### Manual Installation
+1. Install this plugin using: `npm install -g homebridge-yamaha-avr-ergin`
+2. Update your `config.json` file (see example below).
+
+### ⚙️ Configuration Example
+
+```json
+{
+  "platforms": [
+    {
+      "platform": "YamahaReceiver",
+      "discovery": true,
+      "statePollingInterval": 10,
+      "receivers": [
+        {
+          "name": "Living Room Receiver",
+          "ip": "192.168.1.15",
+          "minVolume": -80,
+          "maxVolume": 10,
+          "volumeAccessory": "bulb"
+        },
+        {
+          "name": "Multi-Zone Setup",
+          "ip": "192.168.1.16",
+          "enableZone2": true,
+          "zone2MinVolume": -60,
+          "zone2MaxVolume": 10
+        }
+      ]
+    }
+  ]
+}
+```
+
+### 🔗 Repositories
+
+<table border="0">
+  <tr>
+    <td align="center">
+      <a href="https://github.com/ozturkergin/homebridge-yamaha-avr">
+        <img src="branding/github.svg" width="48px" alt="GitHub" /><br />
+        <b>GitHub</b>
+      </a>
+    </td>
+    <td align="center" width="50"></td>
+    <td align="center">
+      <a href="https://www.jsdelivr.com/package/npm/homebridge-yamaha-avr-ergin">
+        <img src="branding/jsdelivr.svg" width="48px" alt="jsDelivr" /><br />
+        <b>jsDelivr</b>
+      </a>
+    </td>
+    <td align="center" width="50"></td>
+    <td align="center">
+      <a href="https://www.npmjs.com/package/homebridge-yamaha-avr-ergin">
+        <img src="branding/npm.svg" width="48px" alt="NPM" /><br />
+        <b>NPM</b>
+      </a>
+    </td>
+  </tr>
+</table>
+
+---
+*Fork by @averkiev. Created by @nitaybz. Maintained by @ozturkergin.*
