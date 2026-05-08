@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.2] - 2026-05-08
+
+### Fixed
+- Sanitized input and accessory names to comply with HAP-NodeJS validation rules, resolving "invalid Name characteristic" warnings.
+
 ## [1.0.1] - 2026-05-08
 
 ### Changed
