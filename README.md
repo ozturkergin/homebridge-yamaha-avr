@@ -70,18 +70,7 @@ sudo hb-service add https://raw.githubusercontent.com/ozturkergin/homebridge-yam
 }
 ```
 
-### 🔗 Repositories
 
-<table border="0">
-  <tr>
-    <td align="center">
-      <a href="https://github.com/ozturkergin/homebridge-yamaha-avr">
-        <img src="branding/github.svg" width="48px" alt="GitHub" /><br />
-        <b>GitHub</b>
-      </a>
-    </td>
-  </tr>
-</table>
 
 ---
 *Fork by @averkiev. Created by @nitaybz. Maintained by @ozturkergin.*
