@@ -36,8 +36,9 @@ sudo hb-service add https://raw.githubusercontent.com/ozturkergin/homebridge-yam
 ```
 
 #### Manual Installation
-1. Install this plugin using: `npm install -g homebridge-yamaha-avr-ergin`
-2. Update your `config.json` file (see example below).
+1. Download the latest `.tgz` release from GitHub.
+2. Install the plugin using: `npm install -g ./homebridge-yamaha-avr-ergin-1.0.2.tgz`
+3. Update your `config.json` file (see example below).
 
 ### ⚙️ Configuration Example
 
@@ -77,20 +78,6 @@ sudo hb-service add https://raw.githubusercontent.com/ozturkergin/homebridge-yam
       <a href="https://github.com/ozturkergin/homebridge-yamaha-avr">
         <img src="branding/github.svg" width="48px" alt="GitHub" /><br />
         <b>GitHub</b>
-      </a>
-    </td>
-    <td align="center" width="50"></td>
-    <td align="center">
-      <a href="https://www.jsdelivr.com/package/npm/homebridge-yamaha-avr-ergin">
-        <img src="branding/jsdelivr.svg" width="48px" alt="jsDelivr" /><br />
-        <b>jsDelivr</b>
-      </a>
-    </td>
-    <td align="center" width="50"></td>
-    <td align="center">
-      <a href="https://www.npmjs.com/package/homebridge-yamaha-avr-ergin">
-        <img src="branding/npm.svg" width="48px" alt="NPM" /><br />
-        <b>NPM</b>
       </a>
     </td>
   </tr>
