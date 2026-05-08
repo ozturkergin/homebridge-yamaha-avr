@@ -1,5 +1,6 @@
 {
-  "name": "homebridge-yamaha-avr",
+  "name": "homebridge-yamaha-avr-ergin",
+  "author": "ergin_ozturk",
   "description": "Homebridge Plugin for Yamaha Audio Receivers. Based on the plug-in by nitaybz",
   "version": "1.0.0",
   "repository": {

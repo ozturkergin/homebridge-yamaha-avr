@@ -1,5 +1,5 @@
 const AVR = require('./lib/avr')
-const PLUGIN_NAME = 'homebridge-yamaha-avr'
+const PLUGIN_NAME = 'homebridge-yamaha-avr-ergin'
 const PLATFORM_NAME = 'YamahaReceiver'
 const storage = require('node-persist')
 const path = require('path')
