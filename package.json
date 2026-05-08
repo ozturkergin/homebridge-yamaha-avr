@@ -1,10 +1,10 @@
 {
-  "name": "homebridge-yamaha-receiver-ya",
+  "name": "homebridge-yamaha-avr",
   "description": "Homebridge Plugin for Yamaha Audio Receivers. Based on the plug-in by nitaybz",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/averkiev/homebridge-yamaha-receiver-ya.git"
+    "url": "https://github.com/ozturkergin/homebridge-yamaha-avr.git"
   },
   "license": "MIT",
   "preferGlobal": true,
@@ -15,7 +15,7 @@
     "yamaha"
   ],
   "bugs": {
-    "url": "https://github.com/nitaybz/homebridge-yamaha-receiver-ya/issues"
+    "url": "https://github.com/ozturkergin/homebridge-yamaha-avr/issues"
   },
   "engines": {
     "node": ">=20.0.0",

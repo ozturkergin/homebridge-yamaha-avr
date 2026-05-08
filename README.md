@@ -1,12 +1,12 @@
 <img src="branding/yamaha_homebridge.png" width="500px">
 
-# homebridge-yamaha-receiver-ya
+# homebridge-yamaha-avr
 
-[![Downloads](https://img.shields.io/npm/dt/homebridge-yamaha-receiver-ya.svg?color=critical)](https://www.npmjs.com/package/homebridge-yamaha-receiver-ya)
-[![Version](https://img.shields.io/npm/v/homebridge-yamaha-receiver-ya)](https://www.npmjs.com/package/homebridge-yamaha-receiver-ya)
-<!-- [![verified-by-homebridge](https://badgen.net/badge/homebridge/verified/purple)](https://github.com/homebridge/homebridge/wiki/Verified-Plugins) -->
+[![Downloads](https://img.shields.io/npm/dt/homebridge-yamaha-avr.svg?color=critical)](https://www.npmjs.com/package/homebridge-yamaha-avr)
+[![Version](https://img.shields.io/npm/v/homebridge-yamaha-avr)](https://www.npmjs.com/package/homebridge-yamaha-avr)
 
-[Homebridge](https://github.com/homebridge/homebridge) plugin for Yamaha Audio Receivers
+[Homebridge](https://github.com/homebridge/homebridge) plugin for Yamaha Audio Receivers.
+Based on the original work by [nitaybz](https://github.com/nitaybz) and the [averkiev fork](https://github.com/averkiev/homebridge-yamaha-receiver-ya).
 
 
   <img src="branding/product.png" width="300">
